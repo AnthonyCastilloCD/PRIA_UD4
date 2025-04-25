@@ -25,19 +25,19 @@ public class UIManager : MonoBehaviour
     {
         connectionPannel.SetActive(true);
         waitingPannel.SetActive(false);
-        gameObject.SetActive(false);
+        gamePannel.SetActive(false);
     }
     private void ShowWaitingPannel()
     {
         connectionPannel.SetActive(false);
         waitingPannel.SetActive(true);
-        gameObject.SetActive(false);
+        gamePannel.SetActive(false);
     }
     private void ShowGamePannel()
     {
         connectionPannel.SetActive(false);
         waitingPannel.SetActive(false);
-        gameObject.SetActive(true);
+        gamePannel.SetActive(true);
     }
     public void HostButtonCallback()
     {
